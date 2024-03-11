@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criba de Eratóstenes</title>
+  <link rel="stylesheet" href="criba.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Criba de Eratóstenes</h1>
+    <p>Ingrese el número límite de primos:</p>
+    <input type="number" id="numb" placeholder="Ingrese un número...">
+    <button onclick="sieve()">Buscar Primos</button>
+    <div id="resultado">
+      <p id="titulo"></p>
+      <p id="primos"></p>
+      <p id="tiempo"></p>
+    </div>
+  </div>
+  <script src="criba.js"></script>
+</body>
+</html>
